@@ -1,9 +1,13 @@
 # SocioDemoClin-Rehab
 
-This project aims to investigate the potential for socio-demographic (age, sex, employment etc ...) and basis clinical predictors (clinical severity, global assessment of functioning, clinical history) to predict rehabilitation outcomes (such as various aspects of quality of life, autonomy, self-esteem, self-stigmatisation, adherence to treatment, insight).  
-In other words, the project aims at answering the following research question: 
-Do rehabilitation outcomes depend on characteristics that are usually measured in clinical settings?  
-If so, it may suggest that rehabilitation is yet another sort of clinical outcome. If not however, then this may suggest that there is something specific to rehabilitation compared to other clinical outcomes. And that rehabilitation programs benefit from sub-specialization.  
+This project investigates whether socio-demographic factors (such as age, sex, employment status) and basic clinical predictors (including clinical severity, global assessment of functioning, and clinical history) can predict rehabilitation outcomes. These outcomes include various aspects of quality of life, autonomy, self-esteem, self-stigmatization, adherence to treatment, and insight.
 
-To investigate this question, we will use a predictive modelling strategy.  
-Specifically, we will use an ensemble machine learning algorithm of multiple basis learner to investigate whether socio-demographic and basic clinical characteristics influence rehab outcomes. 
+Research Question:
+Do rehabilitation outcomes depend on characteristics that are typically measured in clinical settings?
+
+If the answer is yes, this would suggest that rehabilitation outcomes are similar to other clinical outcomes and may be predicted using standard clinical and demographic variables.
+
+If the answer is no, it may indicate that rehabilitation outcomes are distinct from traditional clinical outcomes, highlighting the need for specialized approaches and potentially supporting the value of sub-specialized rehabilitation programs.
+
+Methodology
+To address this question, we will employ a predictive modeling strategy using ensemble machine learning techniques. Specifically, we will use a SuperLearner approach, combining multiple base learners to assess whether socio-demographic and basic clinical characteristics can reliably predict rehabilitation outcomes.
