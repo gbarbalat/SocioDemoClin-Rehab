@@ -20,7 +20,7 @@ Variables:
 "CENTRE", "AGE_MEDSOC", "SEXE", "NIVETUD_cat", "COMOR_PSY", "Rx", "addict", "SOMA_1", "TTTSOMA_1", "EGF", "CGI_SEVERITE", "SIT_FAM_cat", "ETRE_PARENT", "ADRSSR_cat", "LGMT_cat", "SIT_PRO_cat", "RQTH", "DUREE_MALADIE", "NBR_HOSPI", "DUREE_HOSPI", "TS", "NBR_TS", "MARGIN_ACTPASS", "ATCD_MEDLEG"
 
 ## Initial analysis plan  
-Based on a previous study whose analysis plan is 
+Based on a previous study whose analysis plan is in https://github.com/gbarbalat/predict-missing-REHABase
 
 ### Strategy for missing data
 Imputation: Use R mice package.
