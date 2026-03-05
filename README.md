@@ -1,6 +1,6 @@
 # SocioDemoClin-Rehab
 
-This project investigates whether socio-demographic factors (such as age, sex, employment status) and basic clinical predictors (including clinical severity, global assessment of functioning, and clinical history) can predict rehabilitation outcomes. These outcomes include various aspects of quality of life, autonomy, self-esteem, self-stigmatization, adherence to treatment, and insight.
+This project investigates whether socio-demographic factors (such as age, sex, employment status) and basic clinical predictors (including clinical severity, global assessment of functioning, and clinical history) can predict rehabilitation outcomes. These outcomes include various aspects of quality of life, autonomy, self-esteem, self-stigmatization, adherence to treatment, and insight. Two studies were carried out, one investigating autonomy as an outcome (from the social autonomy scale); and another one investigating other rehab outcomes.
 
 ## Research Question
 Do rehabilitation outcomes depend on characteristics that are typically measured in clinical settings?
@@ -24,10 +24,10 @@ Based on a previous study whose analysis plan is in https://github.com/gbarbalat
 
 ### Strategy for missing data
 Imputation: Use R mice package.
-Keep all observations (if possible based on outflux-influx plots and the lambda parameter).
+Keep all observations if possible (based on outflux-influx plots and the FMI/lambda parameter).
 Discard observations with full missingness.
 Auxiliary variables: Not planned, due to similar missingness process across variables.
-m = 15 (more thn the pct of missing data). maxit = 10. Standard mice imputation models.
+m = 15/20 (more thn the pct of missing data). maxit = 10. Standard mice imputation models.
 Split sample: Imputation will precede predictive modeling and will be done separately in each training vs. testing sets using the ignore argument in the mice function
 
 
@@ -47,10 +47,9 @@ Training (70%) / Testing split.
 ### Variable importance
 fastshap R package: SHAP values (nsim=100) for each fold and training observation.
 SHAP plots with shapviz R package.
-set.seed
 set.seed=123.
 
 
 ### Results
-Fit calculated over 15 imputed datasets.
-SHAP values calculated over 15 imputed datasets.
+Fit calculated over imputed datasets.
+SHAP values calculated over imputed datasets.
