@@ -53,3 +53,10 @@ set.seed=123.
 ### Results
 Fit calculated over imputed datasets.
 SHAP values calculated over imputed datasets.
+
+
+## Scripts   
+preproc_anal etc ... preprocesses the data and runs the model.  
+SL_predict etc ... defines the basis learners.  
+anal_results etc... takes the results and makes tables/figures.
+
