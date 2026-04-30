@@ -1,6 +1,10 @@
 # SocioDemoClin-Rehab
 
-This project investigates whether socio-demographic factors (such as age, sex, employment status) and basic clinical predictors (including clinical severity, global assessment of functioning, and clinical history) can predict rehabilitation outcomes. These outcomes include various aspects of quality of life, autonomy, self-esteem, self-stigmatization, adherence to treatment, and insight. Two studies were carried out, one investigating autonomy as an outcome (from the social autonomy scale); and another one investigating other rehab outcomes.
+This project investigates whether socio-demographic factors (such as age, sex, employment status) and basic clinical predictors (including clinical severity, global assessment of functioning, and clinical history) can predict rehabilitation outcomes. These outcomes include various aspects of quality of life, autonomy, self-esteem, self-stigmatization, adherence to treatment, and insight. Two studies were carried out, one investigating autonomy as an outcome (from the social autonomy scale); and another one investigating other rehab outcomes.  
+
+## Papers  
+Are routinely collected clinical and sociodemographic characteristics associated with social functioning and activities of daily living in schizophrenia? A machine learning approach descriptive of a schizophrenia cohort by Barbalat et al.  
+Socio-demographic and clinical factors show no clear association with patient-reported rehabilitation outcomes in schizophrenia by Barbalat et al.
 
 ## Research Question
 Do rehabilitation outcomes depend on characteristics that are typically measured in clinical settings?
